@@ -1,0 +1,49 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: #0d6c76;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+footer{
+    background-color: #0d6c76;
+    margin: 0%;
+
+}
+h2{
+    color: #0d6c76;
+    font-family:fantasy;
+}
+ img{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+ }
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+hr{
+    width: 100%;
+    height: 5px;
+    background-color: #0d0d0e;
+    margin: 0px;
+    padding: 0px;
+}
+
+

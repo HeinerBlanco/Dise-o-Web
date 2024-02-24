@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    background-color: #0d6c76;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+footer{
+    background-color: #0d6c76;
+    margin: 0%;
+
+}
+.inicio{
+    font-size: 20px;
+    margin-left: 50px;
+    
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+h2{
+    text-align: left;
+    color: #0d6c76;
+    font-family:fantasy;
+}
+.botones  {
+    text-align: left;
+    color: #0d6c76;
+}
+
+p{
+    font-size: 20px;
+    text-align: justify;
+}

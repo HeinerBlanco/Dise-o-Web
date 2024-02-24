@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RETO # 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="icon" type="logo" href="imagenes/favicon.png"/>
+    <link rel="stylesheet" href="css/reto4.css">
+  </head>
+
+
+
+  <body>
+    <header class=" header text-white text-center py-2 ">
+      <h1 > RETO # 4</h1>
+      </header>
+
+    <header>
+
+<nav class="navbar navbar-expand-lg" style="background-color: #0d6c76;">
+  <div class="container-fluid">
+    <a id="inicio" class="inicio text-white navbar-brand" href="index.html">INICIO </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="inicio text-white nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            RETOS
+          </a>
+          <ul class="dropdown-menu navbar-light" style="background-color: #0d6c76;"aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="reto1.html">Reto #1</a></li>
+            <li><a class="dropdown-item" href="reto2.html">Reto #2</a></li>
+            <li><a class="dropdown-item" href="reto3.html">Reto #3</a></li>
+            <li><a class="dropdown-item bg-danger" href="reto4.html">Reto #4</a></li>
+            <li><a class="dropdown-item" href="reto5.html">Reto #5</a></li>
+            <li><a class="dropdown-item" href="reto6.html">Reto #6</a></li>
+            <li><a class="dropdown-item" href="reto7.html">Reto #7</a></li>
+            <li><a class="dropdown-item" href="reto8.html">Reto #8</a></li>
+            <li><a class="dropdown-item" href="reto9.html">Reto #9</a></li>
+            <li><a class="dropdown-item" href="reto10.html">Reto #10</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+
+
+  <section class="container text-center mt-5 pt-5">
+    <div class=" row text-center">
+        <div class="container col-md-3 col-lg-3 py-5 ">
+            <img style="width: 30%;" src="imagenes/shipped.png" alt="camion">
+            <h2 class="text-center pt-5">ENVIOS GRATIS</h2>
+            <p style="font-size: 20px;">Contamos con transporte para el GAM.</p><hr><br>
+        </div>
+
+        <div class="container col-md-3 col-lg-3 py-5">
+            <img style="width: 30%;" src="imagenes/salary.png" alt="camion">
+            <h2 class="text-center pt-5">ECONOMÍA</h2>
+            <p style="font-size: 20px;">Contamos con los mejores precios.</p><hr><br>
+        </div>
+
+        <div class="container col-md-3 col-lg-3 py-5 ">
+            <img style="width: 30%;" src="imagenes/happiness.png" alt="camion">
+            <h2 class="text-center pt-5">SATISFACCIÓN </h2>
+            <p style="font-size: 20px;">Contamos con servicio personalizado.</p><hr><br>
+        </div>
+
+        <div class="container col-md-3 col-lg-3 py-5">
+            <img style="width: 30%;" src="imagenes/clock.png" alt="camion">
+            <h2 class="text-center pt-5">RÁPIDO</h2>
+            <p style="font-size: 20px;">Entregas a todo el país en menos de 24 horas.</p><hr><br>
+        </div>
+
+        <div class="mt-5 mt-5"></div>
+        <div class="mt-5 mt-5"></div>
+        <div class="mt-5 mt-5"></div>
+        <div class="mt-5 mt-5"></div>
+      </div>
+
+  </section>
+
+
+<footer class=" container-fluid text-white text-center py-3 mt-5">
+  <div class="container">
+  <h5>Derechos de autor © 2024 <br>Jeiner Blanco A.</h5>
+  </div>
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- libreria SWEETALERTE-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <!-- interactividad Lottie JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.13/lottie.min.js"></script>
+    
+        <!-- libreria Lottie JS-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js"></script> -->
+    
+    
+    
+    
+        <script>
+            let anima = document.querySelector(".anima");
+            let animation = bodymovin.loadAnimation({
+                container: anima,
+                path: "https://assets9.lottiefiles.com/packages/lf20_7wwm6az7.json",
+                renderer: "svg",
+                loop: false,
+                autoplay: false,
+                name: "Isaac",
+            });
+    
+            anima.addEventListener("click", function() {
+                animation.playSegments([0, 150], true);
+            });
+        </script>
+  
+  
+  
+  </body>
+</html>

@@ -1,0 +1,29 @@
+
+body{
+    
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    
+}
+
+ul{
+    list-style: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+i{
+    color: black;
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+}
+

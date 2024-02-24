@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #0d6c76;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+footer{
+    background-color: #0d6c76;
+    padding: 10px;
+}
+.inicio{
+    font-size: 20px;
+    
+}
+
+
+#cajanoticias{
+    width: 600px;
+    display: flex;
+}
+#seccion{
+display: flex;
+justify-content: center;
+}

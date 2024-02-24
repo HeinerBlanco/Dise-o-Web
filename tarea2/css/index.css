@@ -1,0 +1,62 @@
+
+body{
+    overflow: scroll;
+}
+
+.header{
+    background-color: #0d6c76;
+    
+}
+
+h1{
+    font-size: 40px;
+    
+}
+
+ol{
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+footer{
+    background-color: #0d6c76;
+    margin: 0%;
+
+}
+li{
+    padding: 5px;
+}
+img{
+    width: 30%;
+    
+}
+.imagen{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#retos{
+    color: #0d6c76;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.display-1{
+    margin-top: 150px;
+    color: #0d6c76;
+}
+.subtitulos{
+    font-size: 30px;
+    margin-top: 200px;
+}
+```
